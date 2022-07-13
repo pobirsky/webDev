@@ -61,7 +61,6 @@ class App extends Component {
             key={`${dataName} - ${title}`}
             data-name={dataName}
             onClick={this.handleTab}>
-            Х
           </button>
         ))}
         {activeTab === 1 && <Tab1/>}
